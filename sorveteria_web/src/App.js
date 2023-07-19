@@ -1,12 +1,16 @@
 import './App.css';
+import { GlobalStyles } from './Constants';
+import Rotas from './Routes';
 
 function App() {
   return (
-    <div className="App">
+    <>
+    
+    <Rotas></Rotas>
+    <GlobalStyles />
 
+    </>
 
-
-    </div>
   );
 }
 
