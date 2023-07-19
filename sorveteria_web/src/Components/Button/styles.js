@@ -1,23 +1,7 @@
 import { styled } from "styled-components";
 
 
-export const Button = styled.button`
-display: flex;
-justify-content: center;
-text-align: center;
-align-items: center;
-border: 2px solid;
-border-radius: 10px;
-margin-left: 1vw;
-width: 8vw;
-min-width: 60px;
-height: 7.5vh;
-background-color: #0000;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-cursor: pointer;
 
-
-`
 
 
 export const ButtonText = styled.h1`
@@ -27,3 +11,11 @@ font-weight: bold;
 color: white;
 
 `
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 20px;
+`;
+

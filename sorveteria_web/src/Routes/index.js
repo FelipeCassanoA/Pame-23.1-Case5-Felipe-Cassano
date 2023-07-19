@@ -1,20 +1,29 @@
 import React from 'react'
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Inicial from '../Pages/Inicial';
 import Login from '../Pages/Login';
+
+
 
 function Rotas() {
   return (
 
-    <Router>
-     <Routes>
+  <Router>
+     
 
-        <Route path="/" element={<Login></Login>} ></Route>
+     <Routes>
+        
+        <Route path="/Login" element={<Login></Login>} ></Route>
+        <Route path="/" element={<Inicial></Inicial>} ></Route>
         <Route path="*" element={<div>Not Found</div>}></Route>
-</Routes>
-    </Router>
+    </Routes>
+
+
+  </Router>
 
 
  )
 }
 
 export default Rotas
+

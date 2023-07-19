@@ -1,19 +1,32 @@
 import React from 'react'
-import { Page } from './styles'
-import  Header from '../../Components/Header'
+import { LoginContainer, LoginInput, LoginButton, LoginForm, LoginTitle } from './styles'
+import Header from '../../Components/Header'
 
-function login() {
+
+
+
+function Login() {
   return (
-    
-    <Page>
-      <Header></Header>
 
-
-
-    </Page>
     
 
- )
+    <LoginContainer>
+        <Header></Header>
+      
+      <LoginForm>
+      <LoginTitle>Login</LoginTitle>
+      <label>Nome</label>
+      <LoginInput type="text" placeholder="Email ou Nome de usuário" />
+      
+      <label>Senha</label>
+      <LoginInput type="password" placeholder="Senha" />
+      
+      <LoginButton>Entrar</LoginButton>
+      </LoginForm>
+    
+    </LoginContainer>  
+  
+  )
 }
 
-export default login
+export default Login

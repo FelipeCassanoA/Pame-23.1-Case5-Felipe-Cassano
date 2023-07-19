@@ -1,19 +1,17 @@
 import React from 'react'
-import { ButtonDiv, HeaderDiv, Logo } from './styles'
+import { HeaderDiv, Logo } from './styles'
 import LogoV from "../../Assets/Logo.png"
+import ButtonComponent from '../Button'
 
 
 function Header() {
   
-  
-
-    return (
+      return (
     <HeaderDiv>
 
         <Logo src ={LogoV}></Logo>
 
-        <ButtonDiv>
-        </ButtonDiv>
+        <ButtonComponent></ButtonComponent>
 
     </HeaderDiv>
 
