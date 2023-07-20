@@ -8,6 +8,7 @@ const CadastroFuncionarios = () => {
       
     <Header></Header>
       <CadastroForm>
+        
         <h2>Cadastro de Funcionários</h2>
         <CadastroSubtitle><label>Email:</label></CadastroSubtitle>
         <CadastroInput type="email" placeholder="Email" />
@@ -19,6 +20,7 @@ const CadastroFuncionarios = () => {
         <CadastroSubtitle><label>Chave:</label></CadastroSubtitle>
         <CadastroInput type="text" placeholder="Chave de Acesso" />
         <CadastroButton type="submit">Cadastrar</CadastroButton>
+      
       </CadastroForm>
     
     </CadastroContainer>

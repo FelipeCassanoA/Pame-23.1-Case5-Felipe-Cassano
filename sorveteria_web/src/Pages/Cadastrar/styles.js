@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import imagem from '../../Assets/Fundo.jfif'
 
 
 
@@ -6,8 +7,12 @@ export const CadastroContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  
+  justify-content: flex-start;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.76), rgb(0, 0, 0)), url(${imagem});
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+  height: 100vh;
 `;
 
 export const CadastroForm = styled.form`
@@ -19,7 +24,9 @@ export const CadastroForm = styled.form`
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-top: 6%;
-  background-color:transparent ;
+  background-color:white ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 
 `;
 

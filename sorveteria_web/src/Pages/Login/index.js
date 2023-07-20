@@ -1,5 +1,5 @@
 import React from 'react'
-import { LoginContainer, LoginInput, LoginButton, LoginForm, LoginTitle } from './styles'
+import { LoginContainer, LoginInput, LoginButton, LoginForm, LoginTitle, LoginLabel } from './styles'
 import Header from '../../Components/Header'
 
 
@@ -14,11 +14,14 @@ function Login() {
         <Header></Header>
       
       <LoginForm>
+        
         <LoginTitle>Login</LoginTitle>
-        <label>Nome</label>
+        
+        <LoginLabel><label>Nome:</label></LoginLabel>
+        
         <LoginInput type="text" placeholder="Email ou Nome de usuário" />
       
-        <label>Senha</label>
+        <LoginLabel><label>Senha:</label></LoginLabel>
         <LoginInput type="password" placeholder="Senha" />
       
         <LoginButton>Entrar</LoginButton>

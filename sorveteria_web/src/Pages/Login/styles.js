@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import imagem from '../../Assets/Fundo.jfif'
 
 export const LoginContainer = styled.div`
   display: flex;
@@ -6,6 +7,11 @@ export const LoginContainer = styled.div`
   align-items: center;
   justify-content: flex-start;
   height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.76), rgb(0, 0, 0)), url(${imagem});
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin:0;
+
 
 `;
 
@@ -13,12 +19,13 @@ export const LoginForm = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 6%;
+  padding: 4%;
   border: 1px solid #ccc;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   margin-top: 6%;
-  background-color:transparent ;
+  background-color:white ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 `;
 
@@ -47,4 +54,16 @@ export const LoginButton = styled.button`
 
 export const LoginTitle = styled.h2`
   margin-bottom: 20%; /* Ajuste o valor conforme desejado */
+  display: flex;
+  margin-top: 1%;
+
+
 `;
+
+
+export const LoginLabel = styled.label`
+display: flex;
+margin-right: 75%;
+
+
+`
