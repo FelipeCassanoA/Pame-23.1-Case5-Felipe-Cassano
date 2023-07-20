@@ -2,6 +2,7 @@ import './App.css';
 import { GlobalStyles } from './Constants';
 import Rotas from './Routes';
 
+
 function App() {
   return (
     <>
