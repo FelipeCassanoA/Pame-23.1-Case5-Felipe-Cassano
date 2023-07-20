@@ -28,13 +28,13 @@ export const ButtonDiv = styled.div`
 
 /* Export para alterar a Logo do header */
 
-export const Logo = styled.img`
-width:5vw ;
-height: 5vw;
+export const Logo = styled.h1`
+width:3vw ;
+height: 3vw;
 padding-left: 2vw;
 @media (max-width: 1300px){
-    width: 80px;
-    height: 60px;
+    width: 60px;
+    height: 40px;
 
 
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import { HeaderDiv, Logo } from './styles'
-import LogoV from "../../Assets/Logo.png"
 import ButtonComponent from '../Button'
 
 
@@ -9,7 +8,7 @@ function Header() {
       return (
     <HeaderDiv>
 
-        <Logo src ={LogoV}></Logo>
+        <Logo>Vip|Sorveteria</Logo>
 
         <ButtonComponent></ButtonComponent>
 

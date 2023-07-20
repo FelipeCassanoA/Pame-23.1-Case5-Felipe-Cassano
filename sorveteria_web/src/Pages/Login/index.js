@@ -14,14 +14,14 @@ function Login() {
         <Header></Header>
       
       <LoginForm>
-      <LoginTitle>Login</LoginTitle>
-      <label>Nome</label>
-      <LoginInput type="text" placeholder="Email ou Nome de usuário" />
+        <LoginTitle>Login</LoginTitle>
+        <label>Nome</label>
+        <LoginInput type="text" placeholder="Email ou Nome de usuário" />
       
-      <label>Senha</label>
-      <LoginInput type="password" placeholder="Senha" />
+        <label>Senha</label>
+        <LoginInput type="password" placeholder="Senha" />
       
-      <LoginButton>Entrar</LoginButton>
+        <LoginButton>Entrar</LoginButton>
       </LoginForm>
     
     </LoginContainer>  

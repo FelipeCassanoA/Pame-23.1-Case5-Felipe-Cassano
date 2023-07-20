@@ -15,7 +15,10 @@ color: white;
 export const ButtonWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
-  margin: 20px;
+  gap: 3vh;
+  margin: 2%;
+
+
+
 `;
 
