@@ -4,7 +4,23 @@ import { Link } from 'react-router-dom'
 import { styled } from 'styled-components';
 
 
+
 const Button = styled(Link)`
+text-decoration: none;
+font-size: 1.0rem;
+font-weight: bold;
+color: white;
+display: flex;
+background-color: none;
+color: black;
+cursor: pointer;
+margin-top: 2%;
+margin: 1%;
+
+
+`
+
+const Button1 = styled(Link)`
   padding: 10px 20px;
   background-color: black;
   color: #fff;
@@ -22,11 +38,15 @@ const Button = styled(Link)`
 
 const ButtonComponent = () => {
   return (
+
+
     <ButtonWrapper>
-      <Button to="/estoque">Estoque</Button>
-      <Button to="/inventario">Inventário</Button>
-      <Button to="/cadastrar-funcionario">Cadastrar funcionário</Button>
-      <Button to="/login">Login</Button>
+
+      <Button to='/'>Home</Button> 
+      <Button1 to="/estoque">Estoque</Button1>
+      <Button1 to="/inventario">Inventário</Button1>
+      <Button1 to="/cadastrar-funcionario">Cadastrar funcionário</Button1>
+      <Button1 to="/login">Login</Button1>
 
     </ButtonWrapper>
   );
