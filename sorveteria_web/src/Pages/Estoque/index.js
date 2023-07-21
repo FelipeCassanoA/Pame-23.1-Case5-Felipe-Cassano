@@ -12,7 +12,7 @@ function Estoque() {
     <Header></Header>
     <EstoqueForm>
 
-
+      <h1>Controle de Estoque:</h1>
 
 
     </EstoqueForm>
